@@ -1,0 +1,126 @@
+.poster_container_main {
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter_apply{
+    filter:grayscale(1);
+    width: 100%;
+    height: 670px;
+    position: absolute;
+    opacity: 1;
+}
+.poster_container {
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position: center center;
+    filter: blur(20px);
+    transform: scale(1.2);
+    overflow: hidden;
+    position: absolute;
+}
+
+.poster_contents {
+    width: 926px;
+    height: 520px;
+    z-index: 10;
+    display: flex;
+    padding-top: 10px;
+}
+
+.poster_contents_img {
+    width: 180px;
+    height: 266px;
+    /* padding: 0px 60px 0px 270px; */
+}
+
+.poster_contents_img img {
+    width: 100%;
+    height: 100%;
+}
+.home_tv{
+    width: 100%;
+    height: 24px;
+    color: white;
+}
+.imgs_poster{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.poster_contents_contents{
+    width: 70%;
+    height: 100%;
+}
+.home_tv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.poster_title2{
+    width: 100%;
+    height: 88px;
+    margin-bottom: 10px; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.poster_discrip{
+    width: 80%;
+    height: 150px;
+    color: white;
+    overflow: hidden;
+    word-break: break-all;
+}
+.anime_moves{
+    height: 60px;
+    width: 60px;
+}
+.share_wordss2{
+    width: max-content;
+    margin-left: 20px;
+}
+.share_aniwatch12{
+    width: max-content;
+}
+.share_bigs{
+    margin-left: 10px;
+}
+.navbar2_containers{
+    background-color: transparent !important;
+}
+.aniposter_button{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button_widths{
+    width: 150px;
+}
+.rightttitles_bots{
+    margin-bottom: 30px;
+}
+.aniposter_rightbox{
+    width: 22%;
+    height: 100%;
+    z-index: 10;
+    padding-top: 100px;
+    padding-left: 30px;
+    position: relative;
+    left: 30px;
+    background: rgba(255, 255, 255, .1)
+}
+.jpn_title{
+    color: white;
+    margin-bottom: 15px;
+}

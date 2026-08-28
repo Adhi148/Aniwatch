@@ -1,0 +1,108 @@
+.navbar2_container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #121315;
+    gap: 15px;
+}
+.anime_move{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.anime_move img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.share_words{
+    height: 50px;
+    /* min-width: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.share_aniwatch1{
+    color: #ffdd95;
+    font-weight: 500;
+}
+.share_aniwatch2 {
+    color: white;
+}
+.toatl_share{
+    height: 34px;
+    width: 61px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.share_small{
+    font-size: smaller;
+}
+.share_big{
+    font-size: larger;
+}
+.navbar2_twitter{
+    background-color: black !important;
+}
+.navbar2_social-btn{
+    width: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.navbar2_facebook{
+    background-color: #4267B2 !important;
+    font-size: small !important;
+}
+.navbar2_raddit{
+    background-color: #ff4500 !important;
+    font-size: small !important;
+}
+.navbar2_share{
+    background-color: #95D03A !important;
+    font-size: small !important;
+}
+.navbar2_twitter{
+    font-size: small !important;
+}
+@media screen and (max-width: 864px) {
+    .navbar2_raddit{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 734px) {
+    .navbar2_facebook {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 638px) {
+    .navbar2_twitter {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 520px) {
+    .navbar2_telegram {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .toatl_share {
+        display: none;
+    }
+    .navbar2_social-btn{
+        width: 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .navbar2_container{
+        min-width: 321px;
+    }
+}

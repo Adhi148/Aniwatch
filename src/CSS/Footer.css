@@ -1,0 +1,234 @@
+.footer_container{
+    background-color: #242428;
+    padding: 15px;
+}
+.filter_footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.filter_footer_content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.Compant_logo h5{
+    color: white ;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.Compant_logos{
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    height: 30px;
+}
+.social2_media_main2{
+    width: 500px; 
+    font-size: 13px;
+}
+.social2_media_main2 p{
+    color: white;
+    margin: 0;
+} 
+.footer_a-z{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 9px;
+} 
+
+.a-z a{
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.4rem 0.6rem;
+    display: inline-block;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 0.4rem;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .footer_container{
+        height: 100%;
+        margin-top: -35px;
+    }
+    .footer_container{
+        height:100%;
+    }
+    .footer_a-z{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 505px){
+    .footer_container {
+       min-height: 110% !important;
+    }
+}
+@media screen and (max-width: 344px) {
+    .footer_container {
+        min-height: max-content !important;
+    }
+}
+.footer-links {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.final_div{
+    width: 100%;
+    height: 150px;
+    display: flex; 
+    flex-direction: column; 
+}
+.ulclearr{
+    min-height: 100% !important;
+}
+.ulclearr,.ulclearr li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links ul {
+    padding: 0;
+}
+.footer-links ul li {
+    float: left;
+    margin-right: 40px;
+    list-style-type: none;
+    height: 20px;
+}
+.ulclearr,.ulclearr li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+}
+.footer-links ul li a {
+    /* line-height: 30px; */
+    font-size: .9em;
+    text-decoration: none;
+    color: white;
+    height: max-content;
+} 
+.footer-links ul li a {
+    /* line-height: 30px; */
+    font-size: .9em;
+}
+.about-text{
+    width: 100%;
+    height: max-content;
+    color: white;
+    opacity: .5;
+    font-size: 14.4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.copyright{
+    color: white;
+    opacity: .5;
+    font-size: 14.4px;
+    width: 100%;
+    height: 20.16px;
+
+}
+
+.footer_cont2{
+    width: 100%;
+    height: max-content;
+    background: #242428;
+}
+.footer2_social_media{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer2_social{
+    width: 173px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.footer_cont2{
+    display: none;
+}
+@media screen and (max-width: 515px) {
+    .footer_container {
+        display: none;
+    }
+
+    .footer_cont2 {
+        display: block;
+    }
+    .ulclearr {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .ulclearr li {
+        width: 80px;
+        height: 30px;
+    }
+    .ulclearr li a{
+        font-size: .9em !important;
+    }
+    .right-bottom-genre {
+        height: 560px;
+    }
+    .footer-links ul li a{
+        width: max-content;
+        height: 21px;
+        min-width: max-content;
+        font-size: 11.7px !important;
+    }
+    .footer-links ul{
+        display: flex;
+        align-items: center;
+    }
+    .footer-links ul li{
+       margin-right: 0;
+       width: max-content;
+       display: flex;
+       align-items: center;
+    }
+    .ulclearr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .textt{
+        font-size: 11.7px;
+        text-align: center;
+        padding: 0px 31px
+    }
+    .coprrigh{
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer_cont2{
+        height: 101%;
+    }
+}
+@media screen and (max-width: 404px) {
+    .final_div {
+        height: 176px;
+    }
+}

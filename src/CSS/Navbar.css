@@ -1,0 +1,283 @@
+:root{
+    --display : 
+}
+.Navbar_container{
+    width: 100%;
+    height: 70px;
+    padding: 0px 15px;
+    background-color: #242428;
+}
+.Navbar_subcontainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_nav{
+    width: 67%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.right_nav{
+    width: 15%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search_icon{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_btn{
+    width: 60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    font-size: 30px !important;
+    cursor: pointer;
+    color: white;
+}
+.btn__login{
+    background-color: #ffdd95 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+.Menu{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Compant_logo{
+    width: 121px;
+    height: 40px;
+}
+.Compant_logo img{
+    width: 125px;
+    height: 100%;
+}
+.join_now{
+    height: 44px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.Ani_watch{
+    min-width: 390px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 4.5%;
+}
+.menu-icon{
+    color: white;
+    font-size: 30px !important;
+    cursor: pointer;
+}
+.words{
+    color: white;
+    opacity: 0.5;
+    line-height: 1;
+}
+.words p {
+   margin: 0;
+}
+.bold1{
+    letter-spacing: 0.8px;
+}
+.bold2{
+    letter-spacing: 0.4px;
+}
+.social_media1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social_media_logo{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    cursor: pointer;
+}
+.social_media_logos{
+    font-size: large !important;
+}
+.discord{
+    background-color: #6f85d5;
+}
+.telegram{
+    background-color: #08c;
+}
+.reddit{
+    background-color: #ff4500;
+}
+.twitter{
+    background-color: #1d9bf0;
+}
+.watch2gether_img img{
+    width: 20px;
+    height: 20px;
+}
+.watch2gether_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color: #ffdd95 !important;
+    font-size: 20px;
+}
+.watch2gether , .random , .aniname , .community{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.watch2gether:hover , .random:hover , .community:hover{
+    color: #ffdd95;
+}
+.en-lan , .jp-lan{
+    font-size: small;
+    width: 25px;
+    background-color: rgba(0, 0, 0, 0.317);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+.offcanvas {
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, .1);
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.custom-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 25px !important;
+}
+.offcanvas-body{
+    color: white;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    padding: 0;
+}
+.offcanvas-body .li_navlink{
+    list-style-type: none;
+    min-width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+.offcanvas-body .li_navlink:hover{
+    color: #ffdd95;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.sidebarcommu{
+    background: #222327 !important;
+    color: white !important;
+    gap: 15px !important;
+    border-radius: 10px !important;
+}
+#custom-close-btn{
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+.sidebarcommu i{
+    color: #ffdd95;
+}
+.offcanvas-backdrop.show {
+        background: rgba(36, 36, 40, .8);
+        backdrop-filter: blur(10px);
+        opacity: 1.5;
+} 
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    text-transform: none !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+}
+
+@media screen and (max-width: 1030px) {
+    .join_now{
+        display: none;
+    }
+}
+@media screen and (max-width: 715px) {
+    .Ani_watch {
+        display: none;
+    }
+    .right_nav{
+        gap: 20px;
+        position: relative;
+        right: 30px;
+    }
+}
+@media screen and (max-width: 488px) {
+    .right_nav {
+        gap: 35px;
+        position: relative;
+        right: 30px;
+    }
+}
+@media screen and (max-width: 322px) {
+    .right_nav {
+        position: relative;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 306px) {
+    .right_nav {
+        width: 150px;
+        position: relative;
+        left: 10px;
+        gap: -10px;
+    }
+    .login_btn{
+        position: relative;
+        right: 30px;
+    }
+    .left_nav{
+        width: 210px;
+    }
+}

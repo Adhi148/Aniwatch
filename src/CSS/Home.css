@@ -1,0 +1,21 @@
+.carousel-inner img {
+    height: 400px !important;
+    width: 885px !important;
+}
+
+.carousel-inner {
+    background-size: contain !important;
+    background-position: left !important;
+}
+#okok{
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 100%;
+}
+#done{
+    background-position: left !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
